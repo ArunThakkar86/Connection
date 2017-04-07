@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.author             = { "arun" => "thakkar.arun@gmail.com" }
   s.source       = { :git => "https://github.com/ArunThakkar86/Connection.git", :tag => "#{s.version}" }
   s.framework = "UIKit"
-  s.source_files  = "APIManager/**/*.{h,m}"
+  s.source_files  = "APIManager/*.{h,m}"
 
 end
